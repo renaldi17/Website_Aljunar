@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans serif;
+}
+
+/* Navbar */
+.btn-success{
+  background-color: green;
+  border-radius: 10px;
+  border-color: green;
+  padding: 10px 45px;
+  color: white;
+}
+
+/* nav*/
+.nav-item .nav-link{
+  font-size: 18px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/* Current Page "Home > Berita" */
+#hero{
+    background-color: #EEEEEE;
+    background-position: center;
+    height: 86px;
+}
+
+.hero-title{
+    padding-top: 28px;
+}
+
+.hero-text{
+    font-size: 16px;
+    font-weight: 500;
+    color: #67676e;
+}
+
+/* Body */
+
+.Heading{
+    color: #0c471b;
+    font-size: 2.80rem;
+    position: relative;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.kolom{
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border-radius: 1%;
+}
+
+/* Icon tanggal */
+.tag-single {
+    background-color: #0c471b;
+    color: #fff5ec;
+    font-size: 0.75rem;
+    padding: 0.3rem 1.5rem;
+    display: inline-block;
+    border-radius: 50px;
+    margin-bottom: 8px;
+    font-weight: 400;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.image{
+    border-top-left-radius: 1%;
+    border-top-right-radius: 1%;
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.isi{
+    font-size: 25px;
+    text-justify: auto;
+    padding: 15px 20px;
+}
+
+/* Footer container */
+.share-this-wrap {
+    background: #0c471b;
+    color: #fff5ec;
+    border-radius: 0;
+    padding: 1.3rem 2rem;
+}
+
+.share-line {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    justify-content: space-between;
+}
+
+.share-line>div {
+    background-color: #0c471b;
+    z-index: 2;
+    position: relative;
+}
+
+.share-line::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    width: 79%;
+    margin-right: 5%;
+    margin-left: 5.5%;
+    height: 1px;
+    background-color: #fff5ec;
+    z-index: 1;
+}
+
+.share-this-wrap a {
+    color: #fff5ec;
+}
+
+.share-this-wrap a:hover {
+    color: #27304b;
+}
+
+/* Style untuk contact */
+.contact-container {
+    background: linear-gradient(90deg, #C50000, #5F0000); /* Warna background */
+    color: #fff; /* Warna teks */
+    padding: 20px 0; /* Padding atas dan bawah */
+  }
+  
+  .contact-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1200px; /* Atur lebar maksimum sesuai desain Anda */
+    margin: 0 auto; /* Pusatkan konten */
+    padding: 0 20px; /* Padding kiri dan kanan */
+  }
+  
+  .contact-logo {
+    width: 100px; /* Sesuaikan ukuran logo */
+    margin-right: 20px; /* Margin kanan */
+  }
+  
+  .contact-text h3 {
+    margin-bottom: 10px; /* Jarak antara judul dan teks */
+  }
+  
+  .contact-text p {
+    margin-bottom: 5px; /* Jarak antara baris teks */
+  }
+  
+  .contact-link {
+    color: #4faeff; /* Warna untuk tautan */
+    text-decoration: none; /* Hapus garis bawah */
+  }
+  
+  .contact-link:hover {
+    text-decoration: underline; /* Garis bawah saat hover */
+  }
+  
+  .contact-social {
+    display: flex;
+    gap: 10px; /* Jarak antara ikon sosial media */
+  }
+  
+  .social-link {
+    padding: 10px; /* Padding untuk ikon sosial media */
+    border-radius: 50%; /* Bulatkan sudut ikon */
+    display: inline-block; /* Agar padding berfungsi */
+    transition: background-color 0.3s; /* Transisi untuk hover */
+    color: white;
+  }
+  
+  .social-link:hover {
+    background-color: #777; /* Ubah warna saat hover */
+  }
+  
+  @media (max-width: 768px) {
+    .contact-content {
+      flex-direction: column; /* Susun konten secara vertikal pada layar kecil */
+      text-align: center;
+    }
+  
+    .contact-logo {
+      margin-bottom: 20px; /* Margin bawah logo */
+    }
+  }
+  
+  /* footer copyright */
+  .footer-copyright {
+    background: linear-gradient(90deg, #C50000, #5F0000); /* Merah */
+    color: white; /* Warna teks */
+    text-align: left; /* Teks di tengah */
+    padding: 10px 100px; /* Padding atas dan bawah */
+    position: relative; /* Untuk posisi absolut elemen anak jika diperlukan */
+  }
+  
+  .footer-copyright p {
+    margin: 0; /* Hapus margin default */
+    line-height: 1.5; /* Tinggi baris */
+    font-size: 0.875rem; /* Ukuran font */
+  }
+  
+  /* Jika Anda memiliki elemen tambahan untuk garis biru di atas footer, gunakan ini */
+  .footer-copyright:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px; /* Atau ketebalan garis biru yang Anda inginkan */
+  }
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: transparent;
+  }
+.preloader .loading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font: 14px arial;
+}

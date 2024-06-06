@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+/* nav*/
+.nav-item .nav-link{
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.scroll-nav-active{
+    background-color: white;
+    border-bottom: 2px solid green;
+}
+
+.text-nav-active{
+    color: black;
+}
+
+/* Current Page */
+#hero{
+    background-color:#426B1F;
+    background-position: center;
+    height: 86px;
+}
+
+.hero-title{
+    padding-top: 28px;
+}
+
+.hero-text{
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffff;
+    margin-left: 47%;
+}
+
+/* Formulir */
+.box-formulir {
+    width: 70%;
+    margin: 100px auto; 
+}
+
+.box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;  
+    margin: 5px 0 25px;  
+}
+.table_form tr td:nth-child(1){
+    width: 30%;
+}
+.table_form{
+    width: 50%;
+}
+.input-control{
+    padding:2px 10px ;
+    font-size: 14px;
+    margin: 5px 0;
+}
+.btn-control{
+    padding:2px 10px ;
+    font-size: 14px;
+    margin: 5px 0;
+}
+.btn-control:hover{
+    cursor: pointer;
+}
+.btn-daftar{
+    padding: 10px 25px;
+    border-radius: 8px;
+    background-color: #047426;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+}
+.btn-daftar:hover{
+    cursor: pointer;
+    background-color: #034b19; 
+}
