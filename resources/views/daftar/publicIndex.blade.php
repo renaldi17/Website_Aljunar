@@ -23,6 +23,7 @@
         <h2>Formulir Pendaftaran Siswa Baru</h2>
         
         <form action="{{ route('daftar.store') }}" method="post">
+            @csrf
             <div class="box">
                 <table class="table_form">
                     <tr>

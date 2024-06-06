@@ -85,7 +85,7 @@
                                 <h5 class="judul">CRUD Daftar</h5>
                                 <p class="isi">Management halaman Daftar</p>
                             </div>
-                            <a href="{{ route('aduan.index') }}" class="custom-btn btn justify-content-center mt-auto">View More</a>
+                            {{-- <a href="{{ route('aduan.index') }}" class="custom-btn btn justify-content-center mt-auto">View More</a> --}}
                         </div>
                     </div>
                 </div>
